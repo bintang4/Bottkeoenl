@@ -2550,14 +2550,14 @@ class laravel_grabber:
     def cekHttp(self, ez):
         resume = False
         try:
-            if '://' not in ez:
+            if 'https://' in ez:
                 ez = re.findall('https://(.*?)/', ez)[0]
                 # print(ez)
                 self.attack('https://' + ez)
                 resume = False
             elif 'https://' in ez:
                 ez = re.findall('https://(.*?)/', ez)[0]
-                self.attack('https://' + ez)
+                self.attack('http://' + ez)
                 resume = False
             else:
                 resume = True
@@ -2574,7 +2574,7 @@ class laravel_grabber:
                     ress = sock.connect_ex((ez, 80))
                     sock.close()
                     if str(ress) == '0':
-                        self.attack('https://' + ez)
+                        self.attack('http://' + ez)
                     else:
                         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                         sock.settimeout(6)
@@ -2599,7 +2599,7 @@ class laravel_grabber:
                                             ress = sock.connect_ex((ez, int(key[1])))
                                             sock.close()
                                             if str(ress) == '0':
-                                                self.attack('https://' + ez + ':' + key[1])
+                                                self.attack('http://' + ez + ':' + key[1])
                                         except:
                                             pass
                                     else:
@@ -2607,7 +2607,7 @@ class laravel_grabber:
                                 else:
                                     pass
                 except:
-                    print(kuning + '#' + reset + ' {0} - '.format('https://'+str(ez)) + kuning + "Cant Access Site")
+                    print(kuning + '#' + reset + ' {0} - '.format('http://'+str(ez)) + kuning + "Cant Access Site")
 
     def home(self):
         try:
