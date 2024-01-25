@@ -22,7 +22,11 @@ def free(url):
         get_r = response.json()
         result = get_r["domains"]
         for results in result:
+         if "Not found" in results:
+            open('xReverseResult.txt', 'a').write(url+"\n")
+         else:
             print("[>] {} >> {} Domains".format(Fore.LIGHTCYAN_EX + url + Fore.RESET, Fore.LIGHTYELLOW_EX + str(len(results))))
+            
             open('xReverseResult.txt', 'a').write(results+"\n")
         else:
             print("BAD IP " + url)
@@ -47,6 +51,10 @@ def Main():
             try:
                 list = input(" root@youez[ip list]:~# ")
                 url = open(list, 'r').read().splitlines()
+                if "://" in url:
+                    url = url.replace("htpp://", "").replace("https://", "")
+                else:
+                    url = url
                 with concurrent.futures.ThreadPoolExecutor(max_workers=int(50)) as executor:
                         executor.map(revip, url)
             except Exception as e:
