@@ -1,10 +1,5 @@
 import os
 
-try:
-	os.mkdir('Result')
-except:
-	pass
-
 def scan(site):
     ur = site.rstrip()
     ch = site.split('\n')[0].split('-')
@@ -19,7 +14,7 @@ def scan(site):
         while c <= 249:
             c += 1
             print "Ranging ==>" + str(taz) + str(c) + '.' + str(i)
-            open('Result/Ranged.txt', 'a').write(str(taz) + str(c) + '.' + str(i) + '\n')
+            open('Ranged.txt', 'a').write(str(taz) + str(c) + '.' + str(i) + '\n')
 
 
 nam = raw_input('List Ips  :')
